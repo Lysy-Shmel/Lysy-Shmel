@@ -62,7 +62,7 @@ public class Task1 {
                                         System.out.println(m + n + ca + " Iulya");
                                     }
                                 } else {
-                                    System.out.println(m + n + bc + " Iunya");
+                                    System.out.println(m + n + ba + " Iunya");
                                 }
                             } else {
                                 System.out.println(m + n + bc + " Maya");
