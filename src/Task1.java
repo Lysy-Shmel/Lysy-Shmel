@@ -4,11 +4,9 @@ import java.util.function.DoubleToIntFunction;
 
 public class Task1 {
     public static void main(String[] args) {
-        Random rm = new Random();
-        Scanner sn = new Scanner(System.in);
 
 
-        System.out.println("Vvedite chislo: ");
+        System.out.println("Vvedite chislo: "); Scanner sn = new Scanner(System.in);
         String n = " Years ";
         int m = 0;
         int a = sn.nextInt();

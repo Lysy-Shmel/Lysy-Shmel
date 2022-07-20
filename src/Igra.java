@@ -6,6 +6,7 @@ public class Igra {
         Scanner sn = new Scanner(System.in); Scanner scn = new Scanner(System.in); Random rdm = new Random(); Random rndm = new Random();
 
         System.out.println("Please, enter your name: ");
+        int i = 0;
         String a = sn.next();
         System.out.println("Hello, " + a + ". Let's start.");
         int b = rm.nextInt(20, 999);
@@ -15,6 +16,7 @@ public class Igra {
         int c =  scn.nextInt();
         if (c == cc ) {
             System.out.println("Molodec!!!!!");
+            i+=1;
         } else {
             System.out.println("Ne pravilno.");
         }
@@ -25,6 +27,7 @@ public class Igra {
         int cccc = scnn.nextInt();
         if (ccc == cccc) {
             System.out.println("Verno!");
+            i+=1;
         }else {
             System.out.println("Ne verno...");
         }
@@ -35,8 +38,13 @@ public class Igra {
         int ab = 2;
         if (aa == ab) {
             System.out.println("Pravilno!!!!!!!");
+            i+=1;
         } else {
             System.out.println("Pozer :( ");
+        }
+        System.out.println("U tebya " + i + " balla iz 3");
+        if (i == 3) {
+            System.out.print(" Ty otvetil na vsyo pravilno!");
         }
     }
 }
