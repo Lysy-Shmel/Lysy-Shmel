@@ -4,6 +4,7 @@ public class Task2 {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
+        Scanner sn = new Scanner(System.in);
         Scanner scn = new Scanner(System.in);
         System.out.println("Kol-vo zvezd: ");
         int s = scan.nextInt();
@@ -18,7 +19,14 @@ public class Task2 {
                 System.out.print(n + " ");
                 i++;
             }
-            ii++; i-=s;
+            ii++;
+            i -= s;
+
         }
+        int b = sn.nextInt();
+        int o = 0;
+        while (b > o) {
+
         }
     }
+}
