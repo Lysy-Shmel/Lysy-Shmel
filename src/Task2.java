@@ -23,10 +23,13 @@ public class Task2 {
             i -= s;
 
         }
+        System.out.println("Chislo: ");
         int b = sn.nextInt();
-        int o = 0;
-        while (b > o) {
-
+        int a = b;
+        while (b > 0) {
+            System.out.print("*");
+            b-=1;
         }
+
     }
 }

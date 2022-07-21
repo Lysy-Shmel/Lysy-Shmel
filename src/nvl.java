@@ -18,9 +18,9 @@ public class nvl {
             System.out.println(a + ", print the number of an action what will you choose.");
             int b = ss.nextInt();
             if (b == 1) {
-                System.out.println("Vy zalezli na pal'mu, no poskolznulis' i upali. Vy umerli.");
+                System.out.println("Vy zalezli na pal'mu, no soskol'znuli i upali. Vy umerli.");
                 Scanner k = new Scanner(System.in);
-                System.out.println("Will you restart? Print 1 if Yes, print 2 if no");
+                System.out.println("Will you restart? Print '1' if Yes, print '2' if no");
                 int bb = k.nextInt();
                 if (bb == 1 ) m-=1;
             } else if (b == 2) {
